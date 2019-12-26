@@ -1,0 +1,225 @@
+body{
+    margin-left: 10%;
+    margin-right: 10%;
+    color: #647680;
+    /* border: 2px solid black; */
+}
+/* Nav Bar */
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 50px;
+        /* border: 2px solid black; */
+        /* align-content: center; */
+    }
+        /* Peace Sign Image */
+        nav img{
+            height: 30px;
+            width: 30px;
+            margin-right: 10px;
+        }
+        /* Post an AD button */
+        nav button{
+            background-color: #4C9CF7;
+            color: white;
+            margin-left: 2em;
+            padding: 15px;
+            cursor: pointer;
+        }
+        #group-1{
+            display: flex;
+            flex-direction: row;
+            /* border: 2px solid black; */
+            width:50%;
+        }
+        #item-1{
+            padding-top: 3px;
+        }
+        #group-2{
+            /* background-color: yellow; */
+            display: flex;
+            flex-direction: row;
+            /* border: 2px solid black; */
+            width: 50%;  
+            justify-content: flex-end;
+        }
+        #item-2{
+            align-self: center;
+        }
+/* Row 1 */
+    #row-1{
+        display: flex;
+        flex-direction: row;
+        /* border: 2px solid black; */
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-top: 5%;
+        justify-content: space-between;
+        }
+        #search-button{
+            height: 2em;
+            align-self: center;
+            margin-bottom: 13px;
+        }
+        #search-1 {
+            display: flex;
+            flex-direction: row;
+            border-bottom: 1px inset #CCD3DD;
+            /* border: 2px solid black; */
+            flex-grow: 6;
+            align-self: center;
+        }
+        .text {
+            margin-left: 20px;
+            font-size: 2em;
+        }
+        #search-2{
+            color: #CCD3DD;
+            text-align: center;
+            /* border: 2px solid black; */
+            flex-grow: 1;
+        }
+        .text-1{
+            font-size: 2em;
+        }
+        #search-3 {
+            display: flex;
+            flex-direction: row;
+            border-bottom: 1px inset #CCD3DD;
+            /* border: 2px solid black; */
+            flex-grow: 4;
+            justify-content: space-between;
+        }
+        .p-arrow{
+            align-self: center;
+        }
+/* Row 2 */
+    #row-2{
+        border-bottom: 1px inset #CCD3DD;
+        /* border: 2px solid black; */
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-top: 5%;
+        justify-content: center;
+        flex-grow: 1;
+    }
+            #buttons{
+                margin-right: 75px;
+                margin-bottom: 10px;
+            }
+            #prices {
+                /* background-color: yellow; */
+                display: flex;
+                flex-direction: row;
+                /* width: 50%; */
+                /* justify-content: flex-end; */
+                flex-grow: 1;
+            }
+            #hills {
+                /* background-color: yellow; */
+                display: flex;
+                flex-direction: row;
+                /* width: 50%; */
+                /* justify-content: flex-end; */
+                flex-grow: 1;
+            }
+            #type {
+                /* background-color: yellow; */
+                display: flex;
+                flex-direction: row;
+                /* width: 50%; */
+                /* justify-content: flex-end; */
+                flex-grow: 1;
+            }
+            #more {
+                /* background-color: yellow; */
+                display: flex;
+                flex-direction: row;
+                /* width: 50%; */
+                /* justify-content: flex-end; */
+                flex-grow: 1;
+            }
+            #oldest-first {
+                /* background-color: yellow; */
+                display: flex;
+                flex-direction: row;
+                /* width: 50%; */
+                justify-content: flex-end;
+                flex-grow: 5;
+            }
+/* Main Div With the 5 Images */
+    #images{
+        margin-top: 100px;
+        /* border: 2px solid black; */
+    }
+
+        /* Each of the 2 Containers Within the Main Div */
+        .main-row{
+            display: flex;
+            flex-direction: row;
+        }
+        .picture{
+            border-radius: 15px;
+        }
+        #scene-1{
+            width: 100%;
+            max-width: 100%;
+            padding: 10px;
+        }
+
+        #scene-2{
+            height: 309px;
+            width: 710px;
+            max-width: 100%;
+            padding: 10px;
+        }
+
+        #scene-3{
+            height: 100%;
+            width: 100%;
+            max-width: 100%;
+            padding: 10px;
+        }
+
+        #scene-4{
+            height: 100%;
+            width: 100%;
+            max-width: 100%;
+            padding: 10px;
+        }
+
+        #scene-5{
+            height: 100%;
+            width: 100%;
+            padding: 10px;
+        }
+/* Down Arrows */
+i {
+    border: solid #CCD3DD;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
